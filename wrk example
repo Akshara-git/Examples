@@ -1,0 +1,64 @@
+###find an odd and even index of an string
+str=(input("Enter a string "))
+even=str[::2]
+odd=str[1::2]
+print(even)
+print(odd)
+ans: Enter a string Akshara
+     Asaa
+     khr
+
+
+###find the area of a circle
+pi=3.14
+r=int(input("enter the radius "))
+a=pi*r*r
+print(a)
+ans:  enter the radius 2
+      12.56
+
+
+###find average of 3 numbers
+num1=int(input("Enetr first number "))
+num2=int(input("Enetr second number "))
+num3=int(input("Enetr third number "))
+sum=num1+num2+num3
+avg=sum/3
+print(sum)
+print(avg)
+
+ans:  Enetr first number 2
+      Enetr second number 3
+      Enetr third number 4
+      9
+      3.0
+
+
+###find the largest of 3 numbers
+a=int(input("enter first number "))
+b=int(input("enter second number "))
+c=int(input("enter third number "))
+if(a>b) and (a>c):
+    largest=a
+elif(b>a) and (b>c):
+    largest=b
+else:
+    largest=c
+print("largest number is", largest)
+
+
+ans:  enter first number 5
+      enter second number 7
+      enter third number 8
+      largest number is 8
+
+
+
+###print reverse of a string
+a=input("enter a string ")[::-1]
+print(a)
+
+ans:  enter a string akshara
+      arahska
+
+
